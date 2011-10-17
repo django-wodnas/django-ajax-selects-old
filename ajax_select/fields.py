@@ -11,7 +11,6 @@ from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext as _
 
 
-
 class AutoCompleteSelectWidget(forms.widgets.TextInput):
 
     """  widget to select a model """
