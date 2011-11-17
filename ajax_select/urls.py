@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     url(r'^add_popup/(?P<app_label>\w+)/(?P<model>\w+)$',
         'ajax_select.views.add_popup',
         name = 'add_popup'
-    )
+    ),
+    url(r'^$', 'ajax_select.views.root', name='root'),
 )
 
